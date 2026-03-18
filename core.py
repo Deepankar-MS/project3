@@ -1,9 +1,9 @@
-"""Core functionality for proj3."""
+"""Core functionality for project3."""
 
-from proj2 import enhanced_greet
+from project2 import enhanced_greet
 
 
 def super_greet(name: str) -> str:
-    """Return a super greeting using proj2."""
+    """Return a super greeting using project2."""
     enhanced = enhanced_greet(name)
-    return f"{enhanced} Supercharged by proj3!"
+    return f"{enhanced} Supercharged by project3!"
